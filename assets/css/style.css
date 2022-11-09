@@ -1,0 +1,149 @@
+body{
+	font-family: sans-serif;
+}
+.header{
+		
+   display:flex;
+   flex-wrap:wrap;
+   flex-direction:row;
+   justify-Content:space-between;
+   align-content:center;
+}
+.header img{
+	width:150px;
+	margin-left:20px;
+}
+.navbar ul li{
+	display:inline;
+	margin:10px;
+}
+.navbar ul li a{
+	color:black;
+	font-size:20px;
+	text-decoration:none;
+	
+}
+.donate button{
+	color:white;
+	background-color:#c05326;
+	margin-right:10px;
+	margin-top:20px;
+	padding:5px;
+    border:0px;
+	border-radius:3px;
+	
+}
+.alert{
+	background-color:#f7eae4;
+	padding:20px;
+	padding-left:10px;
+	margin-left:20px;
+	border-radius:3px;
+	border-left:4px solid #c05326;
+	font-size:20px;
+	width:850px;
+	
+}
+.text-highlight{
+	color:#c05326;
+}
+
+.hero{
+	background-image:url(../img/header-bike.jpg);
+	width:875px;
+	height:300px;
+	color:white;
+	margin-left:20px;
+	margin-top:20px;
+	padding:70px 0 0 10px;
+}
+.btn1{
+	color:white;
+	background-color:#c05326;
+	margin-right:10px;
+	margin-top:20px;
+	padding:5px;
+	border:0px;
+	border-radius:3px;
+}
+.btn2{
+	background-color:white;
+	color:#c05326;
+	margin-right:10px;
+	margin-top:20px;
+	padding:5px;
+	border:0px;
+	border-radius:3px;
+}
+.heading-underline{
+	margin-top:20px;
+	margin-left:20px;
+	padding-left:0px;
+	border-bottom:3px solid #f7eae4;
+}
+.content{
+	display:flex;
+}
+.article{
+	padding-left:10px;
+	border:2px solid #e4e4e4;
+	margin-left:20px;
+	width:430px;
+}
+.articleone{
+	
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-Content:flex-start;
+	align-content:center;
+	
+}
+.sidebar .heading-underline{
+	margin-top:0px;
+	margin-left:40px;
+	margin-right:40px;
+	padding-left:0px;
+	border-bottom:3px solid #f7eae4;
+}
+.article__read-more a{
+	text-decoration: none;	
+	color:#c05326;
+}
+.article .article__thumbnail{
+	height:50px;
+	width:70px;
+	padding:20px;
+}
+.article .article__title-link{
+	text-decoration:none;
+	color:#c05326;
+}
+
+.sidebar .article{
+	border:2px solid #E4E4E4;
+	padding:10px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	margin-left:40px;
+	margin-bottom:20px;
+    margin-right:40px;
+	
+}
+.fblogo{
+	color:#c05326;
+	margin-left:335px;
+}
+.footer div{
+	border-top:3px solid #f7eae4;
+	margin:20px;
+}
+.footer div p{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	justify-Content:center;
+	align-content:center;
+	
+}
